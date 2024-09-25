@@ -30,6 +30,10 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+*.config.dart
+*.freezed.dart
+*.g.dart
+*.lock
 
 # Symbolication related
 app.*.symbols
@@ -41,3 +45,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# FVM Version Cache
+.fvm/
+.fvmrc
+.vscode/settings.json
